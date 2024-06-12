@@ -4,7 +4,7 @@ console.log(secretNumber);
 
 let number = Number(prompt("Я загадал число от 1 до 10. Попробуй угадать. У тебя " + attempts +" попытки"));
 
-while (attempts > 1) {
+while (attempts > 0) {
     if (number < secretNumber) {
         attempts = attempts - 1;
         number = Number(prompt("Неа, я загадал больше. Осталось " + attempts));
